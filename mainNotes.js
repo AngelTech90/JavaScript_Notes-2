@@ -46,4 +46,23 @@ window.print();
 
 window.confirm();
 
+// We can only use confirm() as a function too:
+
+let answer = confirm('Are you sure of let thia website?');
+
+console.log(answer);
+
+
+//screen propertie:
+
+screen = window.screen;
+console.log(screen);
+
+// screen properties:
+
+// availHeight: this propertie contain in pixels the total height in our screen:
+console.log(screen.availHeight);
+
+// 
+
 //*we stop at 13:43.
