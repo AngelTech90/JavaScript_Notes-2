@@ -52,6 +52,7 @@ let answer = confirm('Are you sure of let thia website?');
 
 console.log(answer);
 
+//The all screen properties are read only:
 
 //screen propertie:
 
@@ -63,6 +64,19 @@ console.log(screen);
 // availHeight: this propertie contain in pixels the total height in our screen:
 console.log(screen.availHeight);
 
-// 
+// window.screenTop propertie:
 
-//*we stop at 13:43.
+// It will see and take as reference the distance on the top of our window and the top of our screen.
+
+//For example if we have in full screen our browser window this vakue will be 0.
+
+console.log(window.screenTop);
+
+
+// window.screenLeft propertie:
+
+//This propertie represents the same as screenTop but using as reference the distance pixels at thr left of our screen.
+
+console.log(window.screenLeft);
+
+//*we stop at 25:43.
