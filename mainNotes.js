@@ -79,4 +79,35 @@ console.log(window.screenTop);
 
 console.log(window.screenLeft);
 
-//*we stop at 25:43.
+// resizeTo abd resizeBy methods:
+
+// this methods let us change the dimensions of the window were we are:
+
+// resizeTo change by a relative way the window dimensions:
+window.resizeTo(300,700);
+
+//resizeBy change by an absolute way the windows dimensions:
+window.resizeBy(clientWidth,clienHeight);
+
+// moveTo and moveBy methods:
+
+//They are methods that works moves our window taking as reference two numeric parameters that represents X, and Y movement in pixels
+
+//moveBy method:
+//this method works moving in an absolute position our window
+
+window.moveBy(123,788);
+
+//moveTo method:
+//this method works moving in an relative position our window
+
+window.moveTo(-123,-788);
+
+//barprops objects:
+//there are properties that will contain a bolean value, true if are visible, false if isn't:
+
+function showPropsWindow(prop1,prop1,prop1){
+  
+}
+
+//*we stop at 29:17
