@@ -103,11 +103,40 @@ window.moveBy(123,788);
 
 window.moveTo(-123,-788);
 
-//barprops objects:
-//there are properties that will contain a bolean value, true if are visible, false if isn't:
 
-function showPropsWindow(prop1,prop1,prop1){
-  
-}
+//window.location properties:
 
-//*we stop at 29:17
+//href:
+// This propertie show us the url of the file that we are using:
+
+console.log(window.location.href);
+
+//hostname:
+// This propertie show us the domain name of the file where we are in a page:
+
+console.log(window.location.hostname);
+
+// pathname:
+// This propertie contains a url where we are taking as reference the root 
+
+console.log(window.location.pathname);
+
+// protocol
+// this propertie contains the encryotation protocol that is using our website:
+
+console.log(window.location.protocol);
+
+// asign
+// this is a method that loads the part of our website using as parameter a string that contains url of website part:
+
+console.log(window.location.asign("./index.html"));
+
+
+//chrome developer tools:
+
+//if we use right click over an piece of HTML code in our elements tab, if we click the "copy selector" we can take the selector of that element for use it our CSS files.
+
+
+
+
+//*we stop at 54:00
