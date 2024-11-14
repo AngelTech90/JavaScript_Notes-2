@@ -136,7 +136,15 @@ console.log(window.location.asign("./index.html"));
 
 //if we use right click over an piece of HTML code in our elements tab, if we click the "copy selector" we can take the selector of that element for use it our CSS files.
 
+//we can do the same for use an element in JS selecting our JS path.
+
+// We have how copy the xPath of oyr element that show how are structured our component like this:
+
+// /html/body/div
+
+// and we can force the state of our our component, like hover state, active etc
 
 
 
-//*we stop at 54:00
+
+//*we stop at 58:00
