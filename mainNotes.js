@@ -147,4 +147,4 @@ console.log(window.location.asign("./index.html"));
 
 
 
-//*we stop at 58:00
+//*we stop at 1:03:50
