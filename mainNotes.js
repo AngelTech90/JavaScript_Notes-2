@@ -145,6 +145,24 @@ console.log(window.location.asign("./index.html"));
 // and we can force the state of our our component, like hover state, active etc
 
 
+// New so interesting JS feature:
+//As we now, on JS we can only set on cache strings, so usually at moment of cache the JSON of an API request, for that we use this method for stringify our response:
+const apiExampleReponse = {
+  name:"Angel",
+  lastName:"Molina",
+  age:18,
+  single:false,
+  money:null
+};
+
+JSON.stringify(apiExampleResponse);
+localStorage.setItem('response', apiExampleResponse);
+
+console.log(localStorage.getItem('response'));
+
+//*The cool stuff of this is that we can set again our response to an object using parse method
+apiExampleResponse = JSON.parse(localStorage.getItem('response'));
+console.log(apiExampleResponse);
 
 
 //*we stop at 1:03:50
