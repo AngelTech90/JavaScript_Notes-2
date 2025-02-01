@@ -164,5 +164,11 @@ console.log(localStorage.getItem('response'));
 apiExampleResponse = JSON.parse(localStorage.getItem('response'));
 console.log(apiExampleResponse);
 
+//*NOTE: A good practice is just set the JSON.stringify and JSON.parse at moment of setItem on local storage:
+
+localStorage.setItem('response2', JSON.stringify(apiExampleResponse));
+
+const = newApiExampleResponse = localStorage.getItem('response2');
+console.log(JSON.parse(newApiExampleResponse));
 
 //*we stop at 1:03:50
