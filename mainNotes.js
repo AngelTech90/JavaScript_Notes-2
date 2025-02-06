@@ -168,7 +168,21 @@ console.log(apiExampleResponse);
 
 localStorage.setItem('response2', JSON.stringify(apiExampleResponse));
 
-const = newApiExampleResponse = localStorage.getItem('response2');
+const newApiExampleResponse = localStorage.getItem('response2');
 console.log(JSON.parse(newApiExampleResponse));
 
-//*we stop at 1:03:50
+
+//* console.dir()
+// This is a console method that works as a selector of an element that will show us every single propertie from.a node of our page (a node is an HTML element)
+
+console.dir($0);
+
+//On our responsive view with our tools, we can see the differents devices width selecting *See media queries
+
+//We can capture screenshot on this options of our responsive view.
+
+//An interesting tool for find specific elements as images we can press *CTRL + f and we can add the tag of the specific elememt that we want to find
+
+//This option is able to clickimg on seaech om HTML tab of development tools
+
+//*we stop at 1:08:22
