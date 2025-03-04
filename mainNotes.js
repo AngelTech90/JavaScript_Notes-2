@@ -185,4 +185,19 @@ console.dir($0);
 
 //This option is able to clickimg on seaech om HTML tab of development tools
 
+//An interesting feature of the developer tools is that we can got to "Sources" tab and directly edit and modify every file that it's beeing rendered on our browser, and this changes we'll be saved on real time on the file on our local device
+
+// if we press ctrl + p on the developer tools we can open a file that it's on our sources
+
+// The "+" icon at the left side on our sources tap let us import all directories that we could want
+
+// We have the "Snippets" tab that let us add JS code that will execute only in our browser when we go to our snippets and then
+
+// we press "ctrl + enter"
+
+// In case that we want to save our JS snipets we just have to select it on the file and then just do it like save as
+
+
+
+
 //*we stop at 1:08:22
