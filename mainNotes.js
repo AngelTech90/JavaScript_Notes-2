@@ -213,4 +213,4 @@ console.dir($0);
 //WE can use the command palete on our developer tools for run on the bottom part of our tab the "Performance Monitor", so this is very useful for have a register of how many resources our app consume and how we can improve our app's performance
 
 
-//*we stop at 1:08:22
+//*we stop at 1:30:00
