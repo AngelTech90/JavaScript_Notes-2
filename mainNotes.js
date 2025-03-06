@@ -197,7 +197,20 @@ console.dir($0);
 
 // In case that we want to save our JS snipets we just have to select it on the file and then just do it like save as
 
+//DEVELOPER TOOlS NETWORK TAB:
+//On the main window of our tab we can read and see how the sources of our page load, and where it's loading and time that it's taking to load every source 
 
+//Some extra options at moment of see our info on our network it right click and go to "Sort by" this it's for give an alphabetic order, sort by bigger to smaller number
+
+// We can do the same on the top side of our tab, and we can sort by images, css files, html files, JS files, and other very useful examples
+
+// We can block process on our tab too, changing how our page it's working and with this we can understand better how a page works on real time
+
+// We can find a specific source with search barn and we can filther our query for find some specific source  
+
+
+//PERFORMANCE TAB:
+//WE can use the command palete on our developer tools for run on the bottom part of our tab the "Performance Monitor", so this is very useful for have a register of how many resources our app consume and how we can improve our app's performance
 
 
 //*we stop at 1:08:22
