@@ -212,5 +212,8 @@ console.dir($0);
 //PERFORMANCE TAB:
 //WE can use the command palete on our developer tools for run on the bottom part of our tab the "Performance Monitor", so this is very useful for have a register of how many resources our app consume and how we can improve our app's performance
 
+// APPLICATION TAB:
+// It's a place we can see all scripts, images, videos and general files that are on our web page
 
-//*we stop at 1:30:00
+//*we stop at 1:52:48 
+
