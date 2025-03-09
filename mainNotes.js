@@ -215,5 +215,59 @@ console.dir($0);
 // APPLICATION TAB:
 // It's a place we can see all scripts, images, videos and general files that are on our web page
 
-//*we stop at 1:52:48 
+
+// Events in JS:
+// An event it's every action asociated to an element on a page, like our document element, our windows element etc.
+
+// Some examples of elements could be scroll, click, load and reload.
+
+//In JavaScript, an event requires a "event hadler" for be useful at moment of manage events of a page using JS, there's a code example:
+
+const sexyButton = document.querySelector('.sexyButton');
+
+//Here we specifies that at when our element (sexyButton) got the event "onclick" we make an action.
+
+sexyButton.onclick = () => {
+	console.log("Hi sexy pedrito");
+}
+
+
+// A very good practice it's avoid use "eventhandlers" and use "event listeners, this is because at moment of use event handlers we run the risk that if our don't receive JS this element wont work well.
+
+// so for that it's better use event listeners here an example:
+
+sexyButton.addEventListener("click",setSexy);
+
+function setSexy(){
+	console.log('Setting sexy luis');
+}
+
+
+//An interesting tip is that we can't use arrow functions on event listeners as default parameters, only normal functions
+
+//An on that default normal functions we can't set a parameter, this will make problem on our page
+
+function notSexy(s){
+	console.log(s);
+}
+
+sexyButton.addEventListener('doubleclick', noSexy('This is not working bro'));
+
+//A better option, it's use an anonym arrow function as default parameter on our event listener:
+
+sexyButton.addEventListener('click',()=>{
+	console.log('gooood bro');
+})
+
+
+//We can remove events listeners like this:
+
+sexyButton.removeEventListener('doubleclick',noSexy('bye'));
+
+
+//*we stop at 2:00:09
+
+
+
+
 
