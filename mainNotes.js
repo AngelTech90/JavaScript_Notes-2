@@ -284,7 +284,26 @@ sexyButton.addEventListener('click',(e)=>{
 
 //This means that if we click on the children node of 3 nested elements, we will activate first the last children node event, then the first children node event, and then the parent node event 
 
-//*we stop at 2:07:54
+sexyButton.addEventListener('click', (e)=>{ 
+	console.log('first event');
+}, true);
+
+sexyButton.addEventListener('click', (e)=>{         console.log('second event');         }, true);
+
+
+sexyButton.addEventListener('click', (e)=>{         console.log('third event');         }, true);
+
+
+//Very good, now we know how we can "capture"or events, and change their propagation order, but how we can stop this events flow?, well here we have how:
+
+sexyButton.addEventListener('event', (e)=>{ 
+	console.log('Here we stop events');
+	e.stopPropagation();
+});
+
+//stopPropgation method it's an event handler that avoid event bubling from the parent element were we aplied the method
+
+//*we stop at 2:23:43
 
 
 
