@@ -303,6 +303,30 @@ sexyButton.addEventListener('event', (e)=>{
 
 //stopPropgation method it's an event handler that avoid event bubling from the parent element were we aplied the method
 
+//interface events
+
+//error event
+//with this event we can set an action when our element get an error
+
+const exampleEvent = 6;
+exampleEvent.addEventListener('error', ()=>{
+  console.error("You got a failure on examplrEvent");
+});
+
+
+//load event:
+//With this event we can manage whne our page loads, the main object for that it's windowz, this object it's on the top of our herarchy of objects in JS, so we don't need to refer to an specific object for add our event listener:
+
+//first option:
+window.addEventListener('load',()=>{
+  console.log("Page is fully load 1");
+});
+
+//second option:
+addEventListener('load',()=>{
+  console.log("Page is fully load 1");
+});
+
 //*we stop at 2:23:43
 
 
