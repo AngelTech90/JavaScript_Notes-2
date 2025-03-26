@@ -327,6 +327,40 @@ addEventListener('load',()=>{
   console.log("Page is fully load 1");
 });
 
+//beforeunload event:
+//This event occurs when we'll let our site
+
+addEventListener('beforeunload',()=>{
+  alert("You'll let site soon");
+});
+
+//unload event:
+//This event occurs when we let our site:
+
+addEventListener('unload', ()=>{
+  console.log('you left the site');
+});
+
+//resize event:
+//This event target when our windoe resize
+addEventListener('resize',()=>{
+  console.log('Your screen resize');
+});
+
+//scroll event:
+//This event target relatively when an element scroll:
+
+window.addEventListener('scroll', ()=>{
+  console.log('Our user is scrolling');
+});
+
+//select event:
+//This event occurs relative to an element when our user select a text
+
+const input = querySelector('input');
+
+input.addEventListener('select', 
+
 //*we stop at 2:23:43
 
 
