@@ -359,9 +359,12 @@ window.addEventListener('scroll', ()=>{
 
 const input = querySelector('input');
 
-input.addEventListener('select', 
+input.addEventListener('select', ()=>{
+  console.log("Hi bro");
+});
 
-//*we stop at 2:23:43
+
+//*we stop at 3:32:43
 
 
 
