@@ -284,7 +284,20 @@ sexyButton.addEventListener('click',(e)=>{
 
 //This means that if we click on the children node of 3 nested elements, we will activate first the last children node event, then the first children node event, and then the parent node event 
 
-//*we stop at 2:07:54
+
+//EVENT CAPTURING:
+//At moment of set an events flow on our page we can manage it and change it adding some paramenters to our events listeners:
+
+sexyButton.addEventLister('click', ()=>{ 
+	console.log('Im working bro');
+}, true)
+
+//When we add "True" parameter to our event listener we give priority to that specifcic element in our event flow, making that this event runs first
+
+//We can manage and change this by several ways, we can 
+
+//*we stop at 2:07:5
+//
 
 
 
