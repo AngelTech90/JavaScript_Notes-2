@@ -380,6 +380,9 @@ input.addEventListener('select', ()=>{
 });
 
 
+//Block sebtences:
+
+
 //*we stop at 3:32:43
 >>>>>>> refs/remotes/origin/main
 
