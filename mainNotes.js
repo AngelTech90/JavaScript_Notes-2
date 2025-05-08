@@ -284,6 +284,7 @@ sexyButton.addEventListener('click',(e)=>{
 
 //This means that if we click on the children node of 3 nested elements, we will activate first the last children node event, then the first children node event, and then the parent node event 
 
+<<<<<<< HEAD
 
 //EVENT CAPTURING:
 //At moment of set an events flow on our page we can manage it and change it adding some paramenters to our events listeners:
@@ -298,6 +299,89 @@ sexyButton.addEventLister('click', ()=>{
 
 //*we stop at 2:07:5
 //
+=======
+sexyButton.addEventListener('click', (e)=>{ 
+	console.log('first event');
+}, true);
+
+sexyButton.addEventListener('click', (e)=>{         console.log('second event');         }, true);
+
+
+sexyButton.addEventListener('click', (e)=>{         console.log('third event');         }, true);
+
+
+//Very good, now we know how we can "capture"or events, and change their propagation order, but how we can stop this events flow?, well here we have how:
+
+sexyButton.addEventListener('event', (e)=>{ 
+	console.log('Here we stop events');
+	e.stopPropagation();
+});
+
+//stopPropgation method it's an event handler that avoid event bubling from the parent element were we aplied the method
+
+//interface events
+
+//error event
+//with this event we can set an action when our element get an error
+
+const exampleEvent = 6;
+exampleEvent.addEventListener('error', ()=>{
+  console.error("You got a failure on examplrEvent");
+});
+
+
+//load event:
+//With this event we can manage whne our page loads, the main object for that it's windowz, this object it's on the top of our herarchy of objects in JS, so we don't need to refer to an specific object for add our event listener:
+
+//first option:
+window.addEventListener('load',()=>{
+  console.log("Page is fully load 1");
+});
+
+//second option:
+addEventListener('load',()=>{
+  console.log("Page is fully load 1");
+});
+
+//beforeunload event:
+//This event occurs when we'll let our site
+
+addEventListener('beforeunload',()=>{
+  alert("You'll let site soon");
+});
+
+//unload event:
+//This event occurs when we let our site:
+
+addEventListener('unload', ()=>{
+  console.log('you left the site');
+});
+
+//resize event:
+//This event target when our windoe resize
+addEventListener('resize',()=>{
+  console.log('Your screen resize');
+});
+
+//scroll event:
+//This event target relatively when an element scroll:
+
+window.addEventListener('scroll', ()=>{
+  console.log('Our user is scrolling');
+});
+
+//select event:
+//This event occurs relative to an element when our user select a text
+
+const input = querySelector('input');
+
+input.addEventListener('select', ()=>{
+  console.log("Hi bro");
+});
+
+
+//*we stop at 3:32:43
+>>>>>>> refs/remotes/origin/main
 
 
 
