@@ -284,7 +284,6 @@ sexyButton.addEventListener('click',(e)=>{
 
 //This means that if we click on the children node of 3 nested elements, we will activate first the last children node event, then the first children node event, and then the parent node event 
 
-<<<<<<< HEAD
 
 //EVENT CAPTURING:
 //At moment of set an events flow on our page we can manage it and change it adding some paramenters to our events listeners:
@@ -384,7 +383,7 @@ input.addEventListener('select', ()=>{
 
 
 //*we stop at 3:32:43
->>>>>>> refs/remotes/origin/main
+
 
 
 
